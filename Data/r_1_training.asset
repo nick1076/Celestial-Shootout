@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6870418e9c30b42b21a8b86ade7cbd, type: 3}
+  m_Name: r_1_training
+  m_EditorClassIdentifier: 
+  roomEnemies:
+  - {fileID: 6411412697778799178, guid: bcac20d7a35689f4eaa7c092bc2b32c0, type: 3}
+  minEnemies: 05000000
+  maxEnemies: 05000000
+  room: {fileID: 1455379544196678615, guid: f3d3790b06b877245981ef05eb63250c, type: 3}
