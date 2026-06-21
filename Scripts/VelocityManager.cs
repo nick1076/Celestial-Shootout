@@ -13,7 +13,7 @@ public class VelocityManager : MonoBehaviour
 
     private void Update()
     {
-        Vector3 playerVel = playerPhysics.velocity;
+        Vector3 playerVel = playerPhysics.linearVelocity;
 
         if (playerVel.x > speedLimit)
         {
@@ -99,6 +99,6 @@ public class VelocityManager : MonoBehaviour
             }
         }
 
-        playerPhysics.velocity = playerVel;
+        playerPhysics.linearVelocity = playerVel;
     }
 }

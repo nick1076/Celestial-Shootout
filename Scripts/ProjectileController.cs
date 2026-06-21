@@ -10,7 +10,7 @@ public class ProjectileController : MonoBehaviour
     public int damage;
     private void Start()
     {
-        this.GetComponent<Rigidbody>().velocity = this.transform.forward * bulletSpeed;
+        this.GetComponent<Rigidbody>().linearVelocity = this.transform.forward * bulletSpeed;
     }
 
     private void OnTriggerEnter(Collider other)
